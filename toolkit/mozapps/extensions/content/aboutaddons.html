@@ -91,13 +91,6 @@
           ></button>
           <button
             is="category-button"
-            viewid="addons://list/extension"
-            class="category"
-            role="tab"
-            name="extension"
-          ></button>
-          <button
-            is="category-button"
             viewid="addons://list/theme"
             class="category"
             role="tab"
@@ -692,20 +685,7 @@
     </template>
 
     <template name="recommended-footer">
-      <div class="amo-link-container view-footer-item">
-        <button
-          class="primary"
-          action="open-amo"
-          data-l10n-id="find-more-addons"
-        ></button>
-      </div>
-      <div class="view-footer-item">
-        <a
-          class="privacy-policy-link"
-          data-l10n-id="privacy-policy"
-          target="_blank"
-        ></a>
-      </div>
+      <div></div>
     </template>
 
     <template name="discopane">
@@ -723,7 +703,6 @@
         </p>
       </header>
       <taar-notice></taar-notice>
-      <recommended-addon-list></recommended-addon-list>
       <footer is="recommended-footer" class="view-footer"></footer>
     </template>
 
@@ -733,10 +712,6 @@
         class="header-name recommended-heading"
       ></h2>
       <taar-notice></taar-notice>
-      <recommended-addon-list
-        type="extension"
-        hide-installed
-      ></recommended-addon-list>
       <footer is="recommended-footer" class="view-footer"></footer>
     </template>
 
@@ -758,10 +733,6 @@
         data-l10n-id="recommended-themes-heading"
         class="header-name recommended-heading"
       ></h2>
-      <recommended-addon-list
-        type="theme"
-        hide-installed
-      ></recommended-addon-list>
       <footer is="recommended-themes-footer" class="view-footer"></footer>
     </template>
 
