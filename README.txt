@@ -19,3 +19,11 @@ Nightly development builds can be downloaded from:
 
 Keep in mind that nightly builds, which are used by Firefox developers for
 testing, may be buggy.
+
+-------------------------------------------------------------
+
+Use this for building:
+https://firefox-source-docs.mozilla.org/contributing/contribution_quickref.html
+
+And this for an installer build:
+https://firefox-source-docs.mozilla.org/browser/installer/windows/installer/InstallerBuild.html

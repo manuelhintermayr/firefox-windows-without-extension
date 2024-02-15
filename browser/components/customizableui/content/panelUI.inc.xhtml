@@ -81,33 +81,6 @@
             <html:span data-l10n-id="unified-extensions-header-title"/>
           </html:h1>
         </box>
-
-        <toolbarseparator />
-
-        <vbox class="panel-subview-body" context="unified-extensions-context-menu">
-          <html:div id="unified-extensions-messages-container">
-            <!-- messages will be inserted here -->
-          </html:div>
-
-          <vbox id="overflowed-extensions-list">
-            <!-- overflowed extension buttons from the nav-bar will go here -->
-          </vbox>
-
-          <vbox id="unified-extensions-area">
-            <!-- default area for extension browser action buttons -->
-          </vbox>
-
-          <vbox class="unified-extensions-list">
-            <!-- active visible extensions go here -->
-          </vbox>
-        </vbox>
-
-        <toolbarseparator />
-
-        <toolbarbutton id="unified-extensions-manage-extensions"
-                       class="subviewbutton panel-subview-footer-button unified-extensions-manage-extensions"
-                       data-l10n-id="unified-extensions-manage-extensions"
-                       oncommand="BrowserOpenAddonsMgr('addons://list/extension');" />
       </panelview>
     </panelmultiview>
   </panel>
